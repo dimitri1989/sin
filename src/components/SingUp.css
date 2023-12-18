@@ -1,0 +1,66 @@
+.singup{
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(181, 24, 87);
+}
+.singup .singup__content{
+    background: #CEDDE6;
+    height: 100%;
+    border-radius: 32px 0px 0px 32px;
+}
+.singup .singup__bg {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 32px 32px 0px;
+    
+}
+.singup .singup__bg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 32px 32px 0px;
+}
+.singup .singup__Hello{
+    color: #00507C;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 52px;;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+.singup form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.singup .user-icon{
+    padding: 24px 4px 24px 24px;
+}
+.singup .password-icon{
+    padding: 24px 24px 24px 2px;
+}
+.singup input{
+    outline: 0;
+    border: 0;
+    width: 90%;
+}
+.feild{
+    display: flex;
+    margin-bottom: 24px;
+    background: #FFF;
+    border-radius: 48px;
+    justify-content: space-around;
+}
+.singup input::placeholder{
+    color: #00507C;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.singup input[type=text],[type=password],[type=email]{
+    color: #00507C;
+}
